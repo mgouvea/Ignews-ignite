@@ -6,6 +6,7 @@ import GithubProvider from 'next-auth/providers/github';
 import { fauna } from '../../../services/fauna';
 
 export default NextAuth({
+  secret: 'w1qbzYz5r2ZKbFTeOgIS3XbSQb7Ty9Gm+uKrD/n4wt8=',
   // Configure one or more authentication providers
   providers: [
     GithubProvider({
